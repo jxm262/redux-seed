@@ -56,6 +56,9 @@ module.exports = {
                     "babel-loader",
                     "eslint-loader",
                 ],
+                //query: {
+                //    presets: ['env']
+                //}
             },
             {
                 test: /\.css$/, // Only .css files
